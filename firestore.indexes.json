@@ -1,0 +1,138 @@
+{
+  "indexes": [
+    {
+      "collectionId": "users_dates_review",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "user",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "venueDetails.region",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "guestDetails.id",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "locationRegionRef",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "users_dates_review",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "locationRegionRef",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "venue",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "hostDetails.id",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "dates",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionId": "users_dates_review",
+      "state": "READY",
+      "fields": [
+        {
+          "fieldPath": "region",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "mode": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
