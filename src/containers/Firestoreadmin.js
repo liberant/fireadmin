@@ -36,7 +36,6 @@ class Firestoreadmin extends Component {
       theSubLink:null,
       fieldsOfOnsert:null,
       isLoading:true,
-      showAddCollection:true
     };
 
     //Bind function to this
@@ -608,7 +607,7 @@ class Firestoreadmin extends Component {
     var isTimestamp=Config.adminConfig.methodOfInsertingNewObjects=="timestamp"
 
     //Create new element
-    var newElementRef=isTimestamp?db.collection(name).doc(Date.now()):db.collection(name).doc()
+    var newElementRef=isTimestamp?db.collection(name).doc():db.collection(name).doc()
     
     //Add data to the new element
     newElementRef.set(theInsertSchemaObject)
